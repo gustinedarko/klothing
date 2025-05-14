@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
     background-image: url(/image/karsten-winegeart-A0clkcAf4v8-unsplash.jpg);
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     color: antiquewhite;
     height: 100vh;
@@ -33,28 +39,17 @@ nav span{
     justify-content: space-around;
 }
 
-/* ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} */
-
 header a{
     text-decoration: none;
     color: blanchedalmond;
 }
 
-header a:hover{
-    color: red;
+header h1 p{
+    color: black;
 }
 
-button{
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 7px;
-    font-weight: bold;
-    margin-top: 20px;
-    align-self: center;
+header a:hover{
+    color: red;
 }
 
 li{
@@ -69,10 +64,39 @@ li{
     align-items: flex-end;
     margin: auto;
     width: 30%;
-    height: 65%;
+    height: 95vh;
 }
 
-section{
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 20px;
+    align-self: center;
+}
+
+#about{
+    background-image: url("/image/Keep-your-team.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+.profile-image{
+    width: 300px;
+    height: auto;
+}
+  
+.section-spaceabove{}
+
+/* section p{
+    width: 50%;
+    text-align: center;
+} */
+
+#store{
     background-color: blanchedalmond;
     background-size: cover;
     background-position: center;
@@ -80,12 +104,4 @@ section{
     text-align: center;
     width: 100%;
     height: 100vh;
-}
-
-.section-spaceabove{}
-
-section p{
-    width: 50%;
-    text-align: center;
-    margin-top: 30%;
 }
