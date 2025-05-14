@@ -76,12 +76,14 @@ button{
     align-self: center;
 }
 
-#about{
+.about{
     background-image: url("/image/Keep-your-team.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .profile-image{
@@ -89,14 +91,19 @@ button{
     height: auto;
 }
   
-.section-spaceabove{}
+.section-spaceabove{
+    text-align: center;
+    padding: 8rem;
+    font-size: 25px;
+    
+}
 
 /* section p{
     width: 50%;
     text-align: center;
 } */
 
-#store{
+.store{
     background-color: blanchedalmond;
     background-size: cover;
     background-position: center;
@@ -104,4 +111,56 @@ button{
     text-align: center;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
 }
+
+.store-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.store img{
+     width: 80%;
+    height: 200px;
+
+}
+
+.store-a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+
+}
+
+.store-b{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+   
+.new-store{
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin-top: 1%;
+}
+
+/* .new-store-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+} */
