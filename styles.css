@@ -5,7 +5,7 @@
 }
 
 header{
-    background-image: url(/image/karsten-winegeart-A0clkcAf4v8-unsplash.jpg);
+    background-image: url(./image/karsten-winegeart-A0clkcAf4v8-unsplash.jpg);
     background-position: center;
     background-attachment: scroll;
     background-size: cover;
@@ -14,21 +14,17 @@ header{
 }
 
 nav{
-    border: 5px;
     background-color: brown;
-    padding: 5px;
-    margin-bottom: 20px;
+    padding: 10px;
     display: flex;
-    gap: 40;
     justify-content: space-between;
-    align-items: center;
     position: fixed;
     left: 0;
     right: 0;
 }
 
 nav span{
-    font-size: 25px;
+    font-size: 27px;
     font-weight: bold;
 }
 
@@ -44,7 +40,8 @@ header a{
     color: blanchedalmond;
 }
 
-header h1 p{
+.header-boxcb{
+    text-decoration: none;
     color: black;
 }
 
@@ -87,21 +84,16 @@ button{
 }
 
 .profile-image{
-    width: 300px;
+    width: 350px;
     height: auto;
 }
   
 .section-spaceabove{
     text-align: center;
     padding: 8rem;
-    font-size: 25px;
-    
+    font-size: 22px;
+    color: blanchedalmond;
 }
-
-/* section p{
-    width: 50%;
-    text-align: center;
-} */
 
 .store{
     background-color: blanchedalmond;
@@ -114,6 +106,7 @@ button{
     display: flex;
     flex-direction: column;
     padding: 3%;
+    a:hover{color: red;}
 }
 
 .store-container{
@@ -125,16 +118,14 @@ button{
 }
 
 .store img{
-     width: 80%;
+     width: 100%;
     height: 200px;
-
 }
 
 .store-a{
     display: flex;
     flex-direction: row;
     margin-top: 4%;
-
 }
 
 .store-b{
@@ -157,10 +148,18 @@ button{
     margin-top: 1%;
 }
 
-/* .new-store-images{
+.new-store-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80%;
     margin: auto;
-} */
+}
+
+.new-store img{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    width: 80%;
+    height: 200px;
+}
