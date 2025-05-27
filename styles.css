@@ -65,6 +65,10 @@ li{
     height: 100vh;
 }
 
+.header-box span{
+    color: brown;
+}
+
 button{
     background-color: transparent;
     border-radius: 10px;
